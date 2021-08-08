@@ -1,6 +1,6 @@
-import 'package:easy_widgets/easy_widget.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:simple_gesture_detector/simple_gesture_detector.dart';
+import 'easy_widget.dart';
 
 PageTransitionType changeTransitionType(EasyTransitionType type) {
   switch (type) {
@@ -45,6 +45,7 @@ SwipeDirection changeSwipeDirection(EasySwipeDirection direction) {
       return SwipeDirection.down;
   }
 }
+
 EasySwipeDirection changeSwipeDirectionAlt(SwipeDirection direction) {
   switch (direction) {
     case SwipeDirection.left:

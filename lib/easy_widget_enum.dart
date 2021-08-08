@@ -46,7 +46,7 @@ enum EasyTransitionType {
 }
 
 enum EasySwipeDirection {
-  /// Swipe left 
+  /// Swipe left
   left,
 
   /// Swipe right

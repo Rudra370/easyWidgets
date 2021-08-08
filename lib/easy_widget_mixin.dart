@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:easy_widgets/easy_widget.dart';
 import 'package:flutter/material.dart';
+import 'easy_widget.dart';
 import 'easy_widget_enum.dart';
 import 'easy_widget_extensions.dart';
 

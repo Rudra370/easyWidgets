@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:easy_widgets/easy_widget_enum.dart';
-import 'package:easy_widgets/easy_widget_hepler.dart';
-import 'package:easy_widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_gesture_detector/simple_gesture_detector.dart';
+import 'easy_widget_enum.dart';
+import 'easy_widget_hepler.dart';
+import 'widgets.dart';
 import 'easy_widget_signleton.dart';
 
 extension EasyNums on num {
