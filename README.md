@@ -3,7 +3,7 @@
 Simplified and quick access to most used **widget** with easy access to **extenstions** and **functions/helpers** which are **responsive** in nature.
 
 <br>
-<table style="max-width: 550px; border:1px solid">
+<table>
     <thead>
         <tr>
             <th>Features</th>
@@ -11,6 +11,10 @@ Simplified and quick access to most used **widget** with easy access to **extens
         </tr>
     </thead>
     <tbody>
+        <tr>
+          <td><a href="#Responsive" >Responsive</a></td>
+          <td>Every easy widgets are responsive in nature. Other nums can be responsive by using <b>'.hWise'</b> or <b>'.wWise'</b> extension.</td>
+        </tr>
         <tr>
           <td><a href="#" >Simplified Widgets</a></td>
           <td>Simplified widgets to configure faster and easier like <b>EasyContainer</b>, <b>EasyScrollList</b>, and more.</td>
@@ -31,30 +35,33 @@ Simplified and quick access to most used **widget** with easy access to **extens
           <td><a href="#" >Easy extensions</a></td>
           <td>Multiple extensions to make code faster, these extensions helps in responsiveness. The extensions works on <b>list</b>, <b>context</b>, <b>nums</b>, <b>Widgets</b> and more</td>
         </tr>
-        <tr>
-          <td><a href="#" >Responsive Widgets</a></td>
-          <td>Every easy widgets are responsive in nature. Other nums can be responsive by using <b>'.hWise'</b> or <b>'.wWise'</b> extension.</td>
-        </tr>
     </tbody>
 </table>
 <br>
 
 ## Installation
+
 ```
-$ flutter pub add easy_widgets
+flutter pub add easy_widgets
 ```
+
 or
+
 ```
 dependencies:
-  easy_widgets: ^0.0.2
+  easy_widgets: ^0.0.4
 ```
+
 ## Import
+
 All you need is a signle import:
+
 ```dart
 import 'package:easy_widget/easy_widget.dart';
 ```
 
 ## Initialize(MUST!)
+
 For the responsive functionality, you need to initialize the easy widget first.
 <br>
 There are two ways to initialize the easy widget.
@@ -67,6 +74,7 @@ There are two ways to initialize the easy widget.
 ```dart
 EasyWidget.initiate(context);
 ```
+
 ```dart
 import 'package:easy_widget/easy_widget.dart';
 /*
@@ -91,6 +99,7 @@ return YOURWIDGET(
     );
   }
 ```
+
 <br>
 2. If your app is going to change its dimensions(like in web), then you should initialize the easy widget with the help of easy mixin.
 
@@ -98,9 +107,11 @@ return YOURWIDGET(
 <br>
 
 Use EasyMixin with your page stateful class and it will automatically initialize the easy widget.
+
 ```dart
 with EasyMixin
 ```
+
 ```dart
 import 'package:easy_widget/easy_widget.dart';
 /*
@@ -125,10 +136,39 @@ rest of the code
 ```
 
 However if you're willing to pass the design dimensions, you can pass them in init like this:
+
 ```dart
 @override
   void initState() {
     setDesignDimension(360, 720);// put your design width and height here
     super.initState();
   }
+```
+
+<br>
+
+## Responsive
+
+Every easy widget is responsive in nature. Other nums can be responsive by using `'.hWise'` or `'.wWise'` extension.
+
+For example:
+
+```dart
+Container(
+  height: 200.hWise, // height will be adjusted accrding to the height of the screen,
+  width: 200.wWise, // width will be adjusted according to the width of the screen,
+);
+```
+
+You can use the same with Texts, Buttons, Padding, etc.
+
+For example:
+
+```dart
+Text(
+  'Lorem ispum',
+  style: TextStyle(
+    fontSize: 14.hWise, // Text will be adjusted according to the height of the screen,
+  ),
+);
 ```

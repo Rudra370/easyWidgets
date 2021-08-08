@@ -103,7 +103,7 @@ class EasyContainer extends StatefulWidget {
 
   /// whether to use `height` and `width` as responsive
   ///
-  /// if useResponsiveSize is true `height` and `width` will be used as `10.hWise` and `10.wWise` responsively
+  /// if useResponsiveSize is true `height` and `width` will be used as `10.hWise` and `10.wWise` respectively
   ///
   /// default is `true`
   final bool useResponsiveSize;

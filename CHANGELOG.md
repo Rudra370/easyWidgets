@@ -9,3 +9,7 @@ Some fixes
 ## 0.0.3
 
 Updated docs
+
+## 0.0.4
+
+Updated docs and added support to all devices

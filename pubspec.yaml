@@ -1,11 +1,11 @@
 name: easy_widgets
 description: Simplified most used widget & Mixins and access to extenstion that makes your code cleaner and shorter.
-version: 0.0.2
+version: 0.0.4
 homepage: https://github.com/Rudra370/easyWidgets
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -25,6 +25,10 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
+      android:
+        package: com.rudra370.easy_widget
+      ios:
+        package: com.rudra370.easy_widget
       web:
         default_package: easy_widgets_web
 
