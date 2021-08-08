@@ -1,5 +1,5 @@
-import 'package:easy_widget/easy_widget.dart';
-import 'package:easy_widget/easy_widget_hepler.dart';
+import 'package:easy_widgets/easy_widget.dart';
+import 'package:easy_widgets/easy_widget_hepler.dart';
 import 'package:flutter/material.dart';
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 import 'package:page_transition/page_transition.dart';

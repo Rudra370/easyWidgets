@@ -1,6 +1,6 @@
 library easy_widget;
 
-import 'package:easy_widget/easy_widget_signleton.dart';
+import 'package:easy_widgets/easy_widget_signleton.dart';
 import 'package:flutter/material.dart';
 export 'easy_widget_extensions.dart';
 export 'easy_widget_enum.dart';

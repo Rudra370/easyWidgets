@@ -1,4 +1,4 @@
-import 'package:easy_widget/easy_widget.dart';
+import 'package:easy_widgets/easy_widget.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:simple_gesture_detector/simple_gesture_detector.dart';
 
