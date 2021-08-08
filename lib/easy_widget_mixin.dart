@@ -247,9 +247,18 @@ mixin EasyMixin<T extends StatefulWidget> on State<T> {
     return returnOnError != null ? returnOnError() : null;
   }
 
+  double? _designWidth;
+  double? _designHeight;
+
+  void setDesignDimension(double width, double height) {
+    _designWidth = width;
+    _designHeight = height;
+  }
+
   @override
   void didChangeDependencies() {
-    EasyWidget.initiate(context);
+    EasyWidget.initiate(context,
+        designHeight: _designHeight, designWidth: _designWidth);
     super.didChangeDependencies();
   }
 }
