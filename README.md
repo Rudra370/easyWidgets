@@ -16,23 +16,23 @@ Simplified and quick access to most used **widget** with easy access to **extens
           <td>Every easy widgets are responsive in nature. Other nums can be responsive by using <b>'.hWise'</b> or <b>'.wWise'</b> extension.</td>
         </tr>
         <tr>
-          <td><a href="#" >Simplified Widgets</a></td>
+          <td><a href="simplified-widgets" >Simplified Widgets</a></td>
           <td>Simplified widgets to configure faster and easier like <b>EasyContainer</b>, <b>EasyScrollList</b>, and more.</td>
         </tr>
         <tr>
-          <td><a href="#" >Multiple push/pushNamed</a></td>
+          <td><a href="#multiple-pushpushnamed" >Multiple push/pushNamed</a></td>
           <td>Can push multiple pages at once with <b>animation</b>, commonly used for <b>deep linking</b> or <b>app linking</b>.</td>
         </tr>
         <tr>
-          <td><a href="#" >Page transitions</a></td>
+          <td><a href="#page-transition" >Page transitions</a></td>
           <td>Easy <b>page transitions</b> with multiple animations.</td>
         </tr>
         <tr>
-          <td><a href="#" >Easy Mixin support</a></td>
+          <td><a href="#easy-mixin" >Easy Mixin support</a></td>
           <td>Gives you access to multiple common used functions simplified, like showing <b>loading indicator</b> while future, <b>snackbars</b>, <b>dialog</b> and more.</td>
         </tr>
         <tr>
-          <td><a href="#" >Easy extensions</a></td>
+          <td><a href="#easy-extensions" >Easy extensions</a></td>
           <td>Multiple extensions to make code faster, these extensions helps in responsiveness. The extensions works on <b>list</b>, <b>context</b>, <b>nums</b>, <b>Widgets</b> and more</td>
         </tr>
     </tbody>
@@ -176,15 +176,18 @@ Text(
 <br>
 
 ## Simplified Widgets
+
 There are few simplified widgets to configure faster and easier like.
 There documentation are provided for each widget to help you understand how to use it.
 
 Widgets avaiable:
+
 - `EasyContainer()` // can be used as button, add splash effect, animations and much more
 - `EasyScrollList()` // Easily create list, with pagination, optional scroll, separator and much more.
 - `EasyGesture()` // Easily handle complex getures like swipe.
 - `EasyInkTap()` // Handle ink tap, add ripple effect easily.
 - `EasyPadding()` // Easy customizable padding to your widget.
+
 <br>
 
 ## Multiple push/pushNamed
@@ -391,20 +394,24 @@ Inspite of this, it gives you access to multiple functions and getters to make y
 <br>
 
 ### easyFuture
+
 Hanlde the future with and with clean code.
 With this you can:
+
 - Handle the future with a callback
 - Handle the error
 - Default snackbars for error
 - Handle the loading while executing future
-- return type in case of error 
+- return type in case of error
 
 <br>
 
 ## Easy Extensions
+
 Several extensions are available to make your code easier and cleaner.
 
 Avaiable extensions works on:
+
 - `num`
 - `BuildContext`
 - `Object`
