@@ -6,6 +6,7 @@ import 'easy_widget_hepler.dart';
 import 'widgets.dart';
 import 'easy_widget_signleton.dart';
 
+/// on num
 extension EasyNums on num {
   /// Returns a double, which is calculated as
   ///
@@ -206,7 +207,10 @@ extension EasyContext on BuildContext {
 
   Future<T?> pushNamedAll<T extends Object?>(
       {required List<String> routeNames,
-      required List<Map<dynamic, dynamic>> arguments}) {
+      List<Map<dynamic, dynamic>>? arguments}) {
+    if (arguments == null) {
+      arguments = List.generate(routeNames.length, (index) => {});
+    }
     assert(routeNames.length == arguments.length,
         'routeNames length should be equal to arguments lenght');
     for (var i = 0; i < routeNames.length - 1; i++) {
