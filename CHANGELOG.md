@@ -17,3 +17,11 @@ Updated docs and added support to all devices
 ## 0.0.5
 
 Updated docs and added fixed some bugs
+
+## 0.0.6
+
+bugs fixed
+
+## 0.0.7
+
+bugs fixed
